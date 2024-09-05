@@ -32,6 +32,7 @@ const Photo = () => {
           className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
         >
           <div className='relative w-full h-full bg-transparent'>
+            {/* darker overlay */}
             <div className='absolute top-0 bottom-0 w-full h-full bg-gradient-to-r from-transparent to-primary/90 z-10'></div>
             <Image src="/assets/photo.png" priority quality={100} fill alt="" className="object-contain border-none outline-none bg-transparent" />
           </div>
