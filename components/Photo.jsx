@@ -24,15 +24,19 @@ const Photo = () => {
           animate={{
             opacity: 1,
             transition: {
-              delay: 2.4,
-              duration: 0.4,
-              ease: "easeInOut"
+              delay: 2,
+              duration: 0.5,
+              ease: "easeIn"
             },
           }}
           className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
         >
-          <Image src="/assets/photo_with_shadows_applied.png" priority quality={100} fill alt="" className="object-contain" />
+          <div className='relative w-full h-full bg-transparent'>
+            <div className='absolute top-0 bottom-0 w-full h-full bg-gradient-to-r from-transparent to-primary/90 z-10'></div>
+            <Image src="/assets/photo.png" priority quality={100} fill alt="" className="object-contain border-none outline-none bg-transparent" />
+          </div>
         </motion.div>
+
 
         {/* circle */}
         <motion.svg
@@ -49,7 +53,7 @@ const Photo = () => {
             strokeWidth="4"
             strokeLinecap="round"
             strokeLinejoin="round"
-            initial={{strokeDasharray: "24 10 0 0"}}
+            initial={{ strokeDasharray: "24 10 0 0" }}
             animate={{
               strokeDasharray: ["15 120 25 25", "16 25 92 72", "4 250 22 22"],
               rotate: [120, 360]
@@ -58,7 +62,7 @@ const Photo = () => {
               duration: 20,
               repeat: Infinity,
               repeatType: "reverse"
-            }} 
+            }}
           />
         </motion.svg>
       </motion.div>
