@@ -14,7 +14,7 @@ export default function Home() {
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">FullStack Web Engineer && Frontend Engineer</span>
-            <h1 className="h1">Hello I'm <br />
+            <h1 className="h1">Hello I&apos;m <br />
               <span className="text-accent">Gil Vieira</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">Senior Engineer. <br /> JavaScript Ecosystem with many of its libraries and tools. A bit of Java. <br /> In leading positions a few times, and supervisor/tutor twice. </p>
