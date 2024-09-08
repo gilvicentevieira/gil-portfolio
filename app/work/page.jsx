@@ -21,7 +21,7 @@ const projects = [
     title: 'project 1',
     description: 'In 2014, before enrolling into my Software Engineering degree I developed 5 web based videogames. Similars to the classics Flappy Bird, and 2048 games.',
     stack: [{ name: "HTML5" }, { name: "CSS3" }, { name: "JavaScript" }, { name: "GameMaker" }, { name: "PhaserJS" }],
-    image: '/assets/work/Flappy_bird.webp',
+    image: '/assets/work/Flappy_Bird.webp',
     live: '',
     github: ''
   },
@@ -131,7 +131,7 @@ const projects = [
     title: 'project 12',
     description: `A chat Web Application, similar to ChatGPT that connects to OpenAI API.`,
     stack: [{ name: "NextJS" }, { name: 'JavaScript' }, { name: "TailwindCSS" }, { name: "Shadcn" }, { name: "Clerk" }, { name: 'Prisma' }],
-    image: '/assets/work/gptgenius.png',
+    image: '/assets/work/GPTGenius.png',
     live: '',
     github: 'https://github.com/gilvicentevieira/gptgenius'
   }
