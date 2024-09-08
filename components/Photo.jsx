@@ -33,7 +33,7 @@ const Photo = () => {
         >
           <div className='relative w-full h-full bg-transparent'>
             {/* darker overlay */}
-            <div className='absolute top-0 bottom-0 w-full h-full bg-gradient-to-r from-transparent to-primary/90 z-10'></div>
+            <div className='absolute top-0 bottom-0 w-full h-full bg-gradient-to-r from-transparent to-primary/80 z-10'></div>
             <Image src="/assets/photo.png" priority quality={100} fill alt="" className="object-contain border-none outline-none bg-transparent" />
           </div>
         </motion.div>
