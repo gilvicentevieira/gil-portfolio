@@ -38,6 +38,9 @@ export default function Home() {
         </div>
       </div>
       <Stats />
+      <div className="container">
+        <p className="inline-block bottom-0 left-auto text-[10px]">©Inspired by Cristian Mihai design</p>
+      </div>
     </section>
   );
 }
