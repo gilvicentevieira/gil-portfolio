@@ -24,7 +24,7 @@ const experience = {
   title: 'My experience',
   description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos repellat ipsum deleniti, culpa nihil maiores? Error, totam.',
   items: [
-    { company: "Personal Projects", position: "HTML5 Game Development", duration: "2014" },
+    { company: "Personal Projects", position: "Web Game Development", duration: "2014" },
     { company: "Company: Nau21, Software For The Future", position: "Sofware Engineer Intern", duration: "2017" },
     { company: "Company: Nau21, Software For The Future", position: "Full Stack Web Engineer", duration: "2017-2023" },
     { company: "Company: SageByte", position: "Frontend Engineer (Freelance)", duration: "2019-2021" },
