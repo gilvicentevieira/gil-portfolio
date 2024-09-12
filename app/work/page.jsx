@@ -17,7 +17,7 @@ import WorkSliderBtns from '@/components/WorkSliderBtns'
 const projects = [
   {
     num: '01',
-    category: 'HTML5 Game Development',
+    category: 'Web Game Development',
     title: 'project 1',
     description: 'In 2014, before enrolling into my Software Engineering degree I developed 5 web based videogames. Similars to the classics Flappy Bird, and 2048 games.',
     stack: [{ name: "HTML5" }, { name: "CSS3" }, { name: "JavaScript" }, { name: "GameMaker" }, { name: "PhaserJS" }],
