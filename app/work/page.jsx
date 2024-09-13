@@ -60,7 +60,7 @@ const projects = [
     category: 'A Collection of Microservices',
     title: 'project 5',
     description: 'Development of a collection of Microservices for leading Insurance companies such as Zurich Insurance, Fidelidade and Santander.',
-    stack: [{ name: 'Java' }, { name: 'Spring' }, { name: 'MySQL' }, { name: 'PostgreSQL' }, { name: 'AS400' }, { name: 'Docker' }, { name: 'Nginx' }],
+    stack: [{name: 'Microservices'}, { name: 'Java' }, { name: 'Spring' }, { name: 'MySQL' }, { name: 'PostgreSQL' }, { name: 'AS400' }, { name: 'Docker' }, { name: 'Nginx' }],
     image: '/assets/work/Monolith-vs-Microservices.jpg',
     live: '',
     github: ''
@@ -70,15 +70,25 @@ const projects = [
     category: 'Web Application for data visualization',
     title: 'project 6',
     description: 'Development of a Web Application for data visualization for leading Insurance companies such as Zurich Insurance, Fidelidade and Santanderor. This application has the previously developed Microservices Collection feeding it the required data.',
-    stack: [{ name: "HTML5" }, { name: "CSS3" }, { name: 'TypeScript' }, { name: "Angular" }, { name: "PrimeNG" }],
+    stack: [{ name: "LESS CSS" }, { name: 'TypeScript' }, { name: "Angular" }, { name: "PrimeNG" }],
     image: '/assets/work/data-visualization-web-app.webp',
     live: '',
     github: ''
   },
   {
     num: '07',
-    category: 'Betting Web Application (PWA)',
+    category: 'Enterprise Web Portal for an Insurance Company',
     title: 'project 7',
+    description: 'Collaboration in the development of an Enterprise Web Portal that manages Insurance Policies for a large user base. Big and highly complex application for CA Vida which has across different services 1.6 million clients.',
+    stack: [{ name: "HTML5" }, { name: "CSS3" }, { name: 'TypeScript' }, { name: "Angular" }, { name: "PrimeNG" }, { name: "Jasmine" }, { name: "Karma" }, { name: "REST" }, {name: 'Microservices'}],
+    image: '/assets/work/CAVida_portal_login.png',
+    live: '',
+    github: ''
+  },
+  {
+    num: '08',
+    category: 'Betting Web Application (PWA)',
+    title: 'project 8',
     description: `A Progressive Web Application where the users can place bets, and interact with different user's bets. Including a feed page where the most recent bets or friend's bets would appear`,
     stack: [{ name: "HTML5" }, { name: "CSS3" }, { name: 'JavaScript' }, { name: "ReactJS" }, { name: "StyledComponents" }, { name: "Redux" }, { name: "ServiceWorkers" }, { name: 'Firebase' }],
     image: '/assets/work/betting-app.jpg',
@@ -86,9 +96,9 @@ const projects = [
     github: ''
   },
   {
-    num: '08',
+    num: '09',
     category: 'Book Social Media Web Application (PWA)',
-    title: 'project 8',
+    title: 'project 9',
     description: `A Progressive Web Application where users can see a feed of other user's interactions with books. Users can search for books, and add them to custom lists`,
     stack: [{ name: "HTML5" }, { name: "CSS3" }, { name: 'JavaScript' }, { name: "ReactJS" }, { name: "StyledComponents" }, { name: "Redux" }, { name: "ServiceWorkers" }, { name: 'Firebase' }],
     image: '/assets/work/books-social-media-app.png',
@@ -96,9 +106,9 @@ const projects = [
     github: ''
   },
   {
-    num: '09',
+    num: '10',
     category: 'ShareMe - A Pinterest clone',
-    title: 'project 9',
+    title: 'project 10',
     description: `A Web Application visually similar to Pinterest. Layout `,
     stack: [{ name: "HTML5" }, { name: "CSS3" }, { name: 'JavaScript' }, { name: "ReactJS" }, { name: "TailwindCSS" }, { name: "Sanity" }],
     image: '/assets/work/shareme.png',
@@ -106,30 +116,30 @@ const projects = [
     github: 'https://github.com/gilvicentevieira/shareme'
   },
   {
-    num: '10',
+    num: '11',
     category: 'Jobs',
-    title: 'project 10',
-    description: `A React Native application to search for job opportunities `,
+    title: 'project 11',
+    description: `A React Native application to search for job opportunities. Small personal project. `,
     stack: [{ name: "React Native" }, { name: "Expo" }, { name: 'JavaScript' }],
     image: '/assets/work/jobs-react-native.png',
     live: '',
     github: 'https://github.com/gilvicentevieira/Jobs'
   },
   {
-    num: '11',
+    num: '12',
     category: 'Jobify - A Web Application',
-    title: 'project 11',
-    description: `A Web Application to log and visualize job applications `,
+    title: 'project 12',
+    description: `A Web Application to log and visualize job applications. Small personal project. `,
     stack: [{ name: "NextJS" }, { name: 'TypeScript' }, { name: "TailwindCSS" }, { name: "Shadcn" }, { name: "Clerk" }, { name: 'Prisma' }],
     image: '/assets/work/jobify.png',
     live: '',
     github: 'https://github.com/gilvicentevieira/jobify'
   },
   {
-    num: '12',
+    num: '13',
     category: 'GPTGenius - A ChatGPT clone',
-    title: 'project 12',
-    description: `A chat Web Application, similar to ChatGPT that connects to OpenAI API.`,
+    title: 'project 13',
+    description: `A chat Web Application, similar to ChatGPT that connects to OpenAI API. Small personal project.`,
     stack: [{ name: "NextJS" }, { name: 'JavaScript' }, { name: "TailwindCSS" }, { name: "Shadcn" }, { name: "Clerk" }, { name: 'Prisma' }],
     image: '/assets/work/GPTGenius.png',
     live: '',
