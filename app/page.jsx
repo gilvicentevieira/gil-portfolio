@@ -17,7 +17,7 @@ export default function Home() {
             <h1 className="h1">Hello I&apos;m <br />
               <span className="text-accent">Gil Vieira</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">Senior Engineer. <br /> JavaScript Ecosystem with many of its libraries and tools. A bit of Java. <br /> In leading positions a few times, and supervisor/tutor twice. </p>
+            <p className="max-w-[500px] mb-9 text-white/80">Senior Engineer. <br /> Expertise and vast experience in the Javascript ecosystem. <br /> A bit of Java. <br /> I also have experience as a supervisor and a team leader. </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a href="/CVitae.pdf" download>
